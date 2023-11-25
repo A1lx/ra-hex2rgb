@@ -4,7 +4,7 @@ import { hex2rgb, validHex } from "../utils/validators";
 
 export const Converter = () => {
   const [valueRgb, setValueRgb] = useState('rgb');
-  const [bcgColor, setBcgColor] = useState('grey');
+  const [bcgColor, setBcgColor] = useState('gray');
 
   function handlerColor({target}: React.ChangeEvent<HTMLInputElement>) {
     const inputValue = target.value;
